@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.min-h-100vh {
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+    max-width: 1464px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.trust {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.customer {
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0 60px 0;
+}
+
+.box {
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    margin-left: 50px;
+}
+
+.m-30 {
+    margin: 30px;
+}
+
+.name {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.address {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.rating {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.box-con1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-con2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.text {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    height: 100px;
+}
+
+.prev {
+    position: absolute;
+    top: 536px;
+    right: 288px;
+}
+
+.next {
+    position: absolute;
+    top: 536px;
+    right: 211px;
+}
+
+.prev,
+.next {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #F53838;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #F53838;
+}
+
+.pfill {
+    fill: #F53838;
+}
+
+.prev:hover>.pfill,
+.next:hover>.pfill {
+    fill: white;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: unset !important;
+    color: #F53838 !important;
+    width: 45px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid #F53838;
+    background-color: #F53838;
+    z-index: 1;
+
+}
+
+.slick-dots {
+    bottom: -51% !important;
+    right: 42% !important;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+}
