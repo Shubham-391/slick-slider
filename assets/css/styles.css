@@ -42,6 +42,9 @@
     border: 2px solid #DDD;
     margin-left: 50px;
 }
+.box:hover{
+    border-color:#F53838;
+}
 
 .m-30 {
     margin: 30px;
@@ -114,6 +117,7 @@
     top: 536px;
     right: 211px;
 }
+
 
 .prev,
 .next {
