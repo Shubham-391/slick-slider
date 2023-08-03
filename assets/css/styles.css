@@ -42,8 +42,13 @@
     border: 2px solid #DDD;
     margin-left: 50px;
 }
-.box:hover{
-    border-color:#F53838;
+
+.box:hover {
+    border-color: #F53838;
+}
+
+.slick-current.slick-active {
+    border-color: #F53838;
 }
 
 .m-30 {
